@@ -70,7 +70,7 @@ const AddUser = (props) => {
           <label htmlFor="age">Age (Years): </label>
           <input
             id="age"
-            type="text"
+            type="number"
             value={enteredAge}
             autoComplete="off" //It will not give suggestion when clicking on input feild.
             onChange={ageChangeHandler}
