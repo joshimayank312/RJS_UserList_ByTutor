@@ -7,6 +7,8 @@ import ErrorModal from "../UI/ErrorModal";
 import Wrapper from "../Helpers/Wrapper";
 
 const AddUser = (props) => {
+  //useState and useRef both are work almost same, but when & what we should use is decide by our requirements
+  //We can use useRef when we want the input value when it completly added or on clicking on submit button rather than how useState gives input value onchange or on each key stroke in input feild.
   const nameInputRef = useRef();
   const ageInputRef = useRef();
 
